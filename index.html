@@ -11,15 +11,18 @@
             <h1 id="row-Two">random password</h1>
             <h4>Never use an insecure password again</h4>
             
-        <input id="passLength" type="number" placeholder="Password Length"><br>
-            <button id="generatePassword" onclick="getPassword()"> Generate passwords</button>
-        <div>
-            <span class="line"></span>
-        </div>
-        <div id="inputPassword">
-            <div id="firstPassword"></div>
-            <div id="secondPassword"></div>
-        </div>
+            <p> Password Length </p>
+            <div class="row-slider">
+                <input type="range" min="5" max="15" value="50" class="slider" id="myRange"><span id="value"></span>
+                </div>
+                <button id="generatePassword" onclick="getPassword()"> Generate passwords</button>
+            <div>
+                <span class="line"></span>
+            </div>
+            <div id="inputPassword">
+            <span id="firstPassword"></span>
+            <span id="secondPassword"></span>
+            </div>
         <script src="index.js"></script>
         </div>
     </body>
