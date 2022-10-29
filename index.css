@@ -107,6 +107,7 @@ h4 {
 }
 
 #firstPassword, #secondPassword {
+    font-family: 'Inter', sans-serif;
     width: 211px;
     height: 39px;
     background: #273549;
